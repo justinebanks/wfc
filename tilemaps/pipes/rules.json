@@ -1,0 +1,80 @@
+{
+    "aliases": [
+        {
+            "name": "PATH",
+            "value": [0]
+        },
+        {   
+            "name": "END",
+            "value": [1]
+        }
+    ],
+
+    "rules": [
+        {
+            "value": [0, 0],
+            "weight": 1,
+            "type": ["PATH", "END", "END", "PATH"]
+        },
+        {
+            "value": [0, 1],
+            "weight": 1,
+            "type": ["END", "PATH", "END", "PATH"]
+        },
+        {
+            "value": [0, 2],
+            "weight": 1,
+            "type": ["END", "PATH", "PATH", "END"]
+        },
+        {
+            "value": [0, 3],
+            "weight": 1,
+            "type": ["PATH", "END", "PATH", "END"]
+        },
+        {
+            "value": [1, 0],
+            "weight": 1,
+            "type": ["PATH", "PATH", "PATH", "PATH"]
+        },
+        {
+            "value": [1, 1],
+            "weight": 1,
+            "type": ["PATH", "PATH", "PATH", "PATH"]
+        },
+        {
+            "value": [2, 0],
+            "weight": 1,
+            "type": ["END", "END", "END", "END"]
+        },
+        {
+            "value": [3, 0],
+            "weight": 1,
+            "type": ["END", "END", "PATH", "PATH"]
+        },
+        {
+            "value": [3, 1],
+            "weight": 1,
+            "type": ["PATH", "PATH", "END", "END"]
+        },
+        {
+            "value": [4, 0],
+            "weight": 1,
+            "type": ["END", "PATH", "PATH", "PATH"]
+        },
+        {
+            "value": [4, 1],
+            "weight": 1,
+            "type": ["PATH", "PATH", "PATH", "END"]
+        },
+        {
+            "value": [4, 2],
+            "weight": 1,
+            "type": ["PATH", "END", "PATH", "PATH"]
+        },
+        {
+            "value": [4, 3],
+            "weight": 1,
+            "type": ["PATH", "PATH", "END", "PATH"]
+        }
+    ]
+}

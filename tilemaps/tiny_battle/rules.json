@@ -1,0 +1,185 @@
+{
+    "tilesetPath": "tiny-battle/Tilemap/tilemap_packed.png",
+
+    "aliases": [
+        {
+            "name": "LAND",
+            "value": [0, 0]
+        },
+        {
+            "name": "WATER",
+            "value": [1, 1]
+        },
+        {
+            "name": "LAND_WATER",
+            "value": [0, 1]
+        },
+        {
+            "name": "WATER_LAND",
+            "value": [1, 0]
+        },
+        {
+            "name": "LAND_WATER_LAND",
+            "value": [-1, -1]
+        }
+    ],
+    
+    "rules": [
+        {
+            "name": "EMPTY_GRASS",
+            "value": [0, 0],
+            "weight": 3,
+            "type": ["LAND", "LAND", "LAND", "LAND"]
+        },
+        {
+            "name": "GRASS",
+            "value": [1, 0],
+            "weight": 2,
+            "type": ["LAND", "LAND", "LAND", "LAND"]
+        },
+        {
+            "name": "FLOWERS",
+            "value": [2, 0],
+            "weight": 3,
+            "type": ["LAND", "LAND", "LAND", "LAND"]
+        },
+        {
+            "name": "TOP_LEFT_CORNER",
+            "value": [0, 1],
+            "weight": 1,
+            "type": ["LAND", "LAND_WATER", "LAND", "LAND_WATER"]
+        },
+        {
+            "name": "TOP_EDGE",
+            "value": [1, 1],
+            "weight": 1,
+            "type": ["LAND", "WATER", "LAND_WATER", "LAND_WATER"]
+        },
+        {
+            "name": "TOP_RIGHT_CORNER",
+            "value": [2, 1],
+            "weight": 1,
+            "type": ["LAND", "WATER_LAND", "LAND_WATER", "LAND"]
+        },
+        {
+            "name": "LEFT_EDGE",
+            "value": [0, 2],
+            "weight": 1,
+            "type": ["LAND_WATER", "LAND_WATER", "LAND", "WATER"]
+        },
+        {
+            "name": "WATER",
+            "value": [1, 2],
+            "weight": 1,
+            "type": ["WATER", "WATER", "WATER", "WATER"]
+        },
+        {
+            "name": "RIGHT_EDGE",
+            "value": [2, 2],
+            "weight": 1,
+            "type": ["WATER_LAND", "WATER_LAND", "WATER", "LAND"]
+        },
+        {
+            "name": "BOTTOM_LEFT_CORNER",
+            "value": [0, 3],
+            "weight": 1,
+            "type": ["LAND_WATER", "LAND", "LAND", "WATER_LAND"]
+        },
+        {
+            "name": "BOTTOM_EDGE",
+            "value": [1, 3],
+            "weight": 1,
+            "type": ["WATER", "LAND", "WATER_LAND", "WATER_LAND"]
+        },
+        {
+            "name": "BOTTOM_RIGHT_CORNER",
+            "value": [2, 3],
+            "weight": 1,
+            "type": ["WATER_LAND", "LAND", "WATER_LAND", "LAND"]
+        },
+        {
+            "name": "TOP_LEFT_STUMP",
+            "value": [0, 5],
+            "weight": 1,
+            "type": ["LAND_WATER", "WATER", "LAND_WATER", "WATER"]
+        },
+        {
+            "name": "TOP_RIGHT_STUMP",
+            "value": [1, 5],
+            "weight": 1,
+            "type": ["WATER_LAND", "WATER", "WATER", "LAND_WATER"]
+        },
+        {
+            "name": "BOTTOM_LEFT_STUMP",
+            "value": [3, 5],
+            "weight": 1,
+            "type": ["WATER", "LAND_WATER", "WATER_LAND", "WATER"]
+        },
+        {
+            "name": "BOTTOM_RIGHT_STUMP",
+            "value": [2, 5],
+            "weight": 1,
+            "type": ["WATER", "WATER_LAND", "WATER", "WATER_LAND"]
+        },
+        {
+            "name": "RIVER_LEFT",
+            "value": [0, 4],
+            "weight": 1,
+            "type": ["WATER_LAND", "WATER_LAND", "WATER", "LAND_WATER_LAND"]
+        },
+        {
+            "name": "RIVER_HORIZONTAL",
+            "value": [1, 4],
+            "weight": 1,
+            "type": ["LAND", "LAND", "LAND_WATER_LAND", "LAND_WATER_LAND"]
+        },
+        {
+            "name": "RIVER_RIGHT",
+            "value": [2, 4],
+            "weight": 1,
+            "type": ["LAND_WATER", "LAND_WATER", "LAND_WATER_LAND", "WATER"]
+        },
+        {
+            "name": "RIVER_BOTTOM",
+            "value": [3, 4],
+            "weight": 1,
+            "type": ["LAND_WATER_LAND", "WATER", "LAND_WATER", "LAND_WATER"]
+        },
+        {
+            "name": "RIVER_VERTICAL",
+            "value": [3, 3],
+            "weight": 1,
+            "type": ["LAND_WATER_LAND", "LAND_WATER_LAND", "LAND", "LAND"]
+        },
+        {
+            "name": "RIVER_TOP",
+            "value": [3, 2],
+            "weight": 1,
+            "type": ["WATER", "LAND_WATER_LAND", "WATER_LAND", "WATER_LAND"]
+        },
+        {
+            "name": "RIVER_TOP_LEFT",
+            "value": [3, 0],
+            "weight": 1,
+            "type": ["LAND", "LAND_WATER_LAND", "LAND", "LAND_WATER_LAND"]
+        },
+        {
+            "name": "RIVER_TOP_RIGHT",
+            "value": [4, 0],
+            "weight": 1,
+            "type": ["LAND", "LAND_WATER_LAND", "LAND_WATER_LAND", "LAND"]
+        },
+        {
+            "name": "RIVER_BOTTOM_LEFT",
+            "value": [3, 1],
+            "weight": 1,
+            "type": ["LAND_WATER_LAND", "LAND", "LAND", "LAND_WATER_LAND"]
+        },
+        {
+            "name": "RIVER_BOTTOM_RIGHT",
+            "value": [4, 1],
+            "weight": 1,
+            "type": ["LAND_WATER_LAND", "LAND", "LAND_WATER_LAND", "LAND"]
+        }
+    ]
+}
