@@ -35,42 +35,6 @@
             "weight": 1,
             "type": ["PAVE_ROAD_PAVE", "PAVE", "PAVE_ROAD_PAVE", "PAVE"]
         },
-        // {
-        //     "name": "River 1",
-        //     "value": [4, 9],
-        //     "weight": 1,
-        //     "type": ["PAVE", "PAVE", "PAVE_WATER_PAVE", "PAVE_WATER_PAVE"]
-        // },
-        // {
-        //     "name": "River 2",
-        //     "value": [1, 8],
-        //     "weight": 1,
-        //     "type": ["PAVE_WATER_PAVE", "PAVE_WATER_PAVE", "PAVE", "PAVE"]
-        // },
-        // {
-        //     "name": "River End 1",
-        //     "value": [3, 9],
-        //     "weight": 1,
-        //     "type": ["PAVE", "PAVE_WATER_PAVE", "PAVE", "PAVE"]
-        // },
-        // {
-        //     "name": "River End 2",
-        //     "value": [0, 11],
-        //     "weight": 1,
-        //     "type": ["PAVE", "PAVE", "PAVE", "PAVE_WATER_PAVE"]
-        // },
-        // {
-        //     "name": "River End 3",
-        //     "value": [1, 11],
-        //     "weight": 1,
-        //     "type": ["PAVE", "PAVE", "PAVE_WATER_PAVE", "PAVE"]
-        // },
-        // {
-        //     "name": "River End 4",
-        //     "value": [3, 12],
-        //     "weight": 1,
-        //     "type": ["PAVE_WATER_PAVE", "PAVE", "PAVE", "PAVE"]
-        // },
         {
             "name": "Lone Fountain",
             "value": [1, 9],
@@ -191,30 +155,6 @@
             "weight": 1,
             "type": ["PAVE", "PAVE_ROAD_PAVE", "PAVE_ROAD_PAVE", "PAVE_ROAD_PAVE"]
         },
-        // {
-        //     "name": "Down Tunnel",
-        //     "value": [4, 5],
-        //     "weight": 1,
-        //     "type": ["PAVE", "PAVE_ROAD_PAVE", "PAVE", "PAVE"]
-        // },
-        // {
-        //     "name": "Right Tunnel",
-        //     "value": [1, 7],
-        //     "weight": 1,
-        //     "type": ["PAVE", "PAVE", "PAVE", "PAVE_ROAD_PAVE"]
-        // },
-        // {
-        //     "name": "Left Tunnel",
-        //     "value": [2, 7],
-        //     "weight": 1,
-        //     "type": ["PAVE", "PAVE", "PAVE_ROAD_PAVE", "PAVE"]
-        // },
-        // {
-        //     "name": "Up Tunnel",
-        //     "value": [4, 8],
-        //     "weight": 1,
-        //     "type": ["PAVE_ROAD_PAVE", "PAVE", "PAVE", "PAVE"]
-        // }
         {
             "name": "Street Light Road 1",
             "value": [3, 10],
