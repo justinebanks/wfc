@@ -58,7 +58,7 @@ InputData cityData = {
 
 int main() {
     InputData data = cityData;
-    int rows = 2;
+    int rows = 0;
     int fold = 5;
     Color bgColor = Color{0,0,0,0};
 

@@ -119,7 +119,7 @@ int main() {
             isometric = isometric == false ? true : false;
 
         if (isometric == false) 
-            tilemap.display(false);
+            wfc.display();
         else if (isometric == true)
             tilemap.display(true);
         
