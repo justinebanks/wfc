@@ -67,7 +67,7 @@ int main() {
     SetWindowState(FLAG_WINDOW_RESIZABLE);
     SetTargetFPS(60);
 
-    InputData data = cityData;
+    InputData data = pipeData;
     RuleParser parser(data.rules);
 
     int scale = 1;
@@ -82,7 +82,7 @@ int main() {
 
     WFC wfc(&tilemap, parser.possibilities, parser.rules);
 
-    int isometric = true;
+    int isometric = false;
 
     while (!WindowShouldClose()) {
         BeginDrawing();

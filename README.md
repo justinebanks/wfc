@@ -23,7 +23,7 @@ int main() {
     const char *img = "res/image"; // 20x30 tileset of 16px images
     
     TileSet tileset(img, 16, 20, 30, 1); // Last Parameter is the scale of the image
-    TileMap tilemap(&tileset, 20, 20); // Instantiates a 30x30 tilemap;
+    TileMap tilemap(&tileset, 20, 20); // Instantiates a 20x20 tilemap;
     
     RuleParser parser("rule_file.json"); // All Rules Are Specified in a JSON File (explained later)
     
@@ -63,15 +63,14 @@ If you already have a tileset to use, then you don't need to do this of course. 
 ```json
 {
     "aliases": [
-    {
-        "name": "ALIAS1",
-        "value": [1]
-    },
-    {
-        "name": "ALIAS2",
-        "value": [2]
-    }
-    }
+        {
+            "name": "ALIAS1",
+            "value": [1]
+        },
+        {
+            "name": "ALIAS2",
+            "value": [2]
+        }
     ],
     "rules": [
         {
